@@ -1,0 +1,18 @@
+{
+  "appenders": [
+    {
+      "category": "system",
+      "type": "console"
+    },
+    {
+      "type": "dateFile",
+      "maxLogSize": 10000000,
+      "filename": "logs/access.log",
+      "pattern": "-yyyy-MM-dd",
+      "alwaysIncludePattern": true
+    }
+  ],
+  "levels": {
+    "system": "DEBUG"
+  }
+}
